@@ -7,7 +7,8 @@ export default {
 	output: {
 		file: "dist/js/bundle.js",
 		format: "iife",
-		name: "main"
+		name: "main",
+		sourcemap: true
 	},
 	plugins: [
 		resolve(),
